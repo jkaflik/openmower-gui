@@ -3,13 +3,11 @@
 package dynamic_reconfigure
 
 import (
-    "github.com/bluenviron/goroslib/v2/pkg/msg"
+	"github.com/bluenviron/goroslib/v2/pkg/msg"
 )
 
-
 type BoolParameter struct {
-    msg.Package `ros:"dynamic_reconfigure"`
-    Name string
-    Value bool
+	msg.Package `ros:"dynamic_reconfigure"`
+	Name        string
+	Value       bool
 }
-
